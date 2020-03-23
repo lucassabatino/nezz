@@ -3,7 +3,7 @@ import environment from "./helpers/environment";
 module.exports = {
   ROOMS_SOURCE: process.env.ROOMS_SOURCE,
   ENVIRONMENT: process.env.NODE_ENV,
-  GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID || "XXXX",
+  GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID || "927809977823-3mlpvklkd1nffoo82iltvhd2lfhgj12q.apps.googleusercontent.com",
   GOOGLE_SECRET: process.env.GOOGLE_SECRET || "XXXX",
   GOOGLE_CALLBACK_URL: process.env.GOOGLE_CALLBACK_URL
     || "http://localhost:8080/auth/google/callback",
